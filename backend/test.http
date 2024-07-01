@@ -1,0 +1,10 @@
+POST http://localhost:5281/api/Movie
+
+{
+  "Id": 1,
+  "Title": "The Shawshank Redemption",
+  "Rating": "9.3",
+  "Genre": "Drama",
+  "Image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGVjNWY0NzItMTU2ZS00ODY4LTk4ZmUtYzRhMTk2MWVhZTI2XkEyXkFqcGdeQXVyNzkwMjQ5NzU@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+  "Description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+}
