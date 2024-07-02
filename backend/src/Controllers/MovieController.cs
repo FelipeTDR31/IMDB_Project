@@ -60,7 +60,7 @@ namespace backend.Controllers
         {
             _context.Movie.Add(movie);
             await _context.SaveChangesAsync();
-            return Ok("movie created");
+            return Ok(movie);
         }
 
         /// <summary>
